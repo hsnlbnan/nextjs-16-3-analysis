@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-08-04T23:20:24.458Z",
+  "nextVersion": null,
+  "totals": {
+    "static": 15,
+    "partial": 17,
+    "dynamic": 2
+  },
+  "routes": [
+    {
+      "path": "/_not-found",
+      "kind": "static",
+      "revalidate": null,
+      "expire": null
+    },
+    {
+      "path": "/en",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/cache",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/cache",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/blocking",
+      "kind": "dynamic",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/blocking",
+      "kind": "dynamic",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/boundaries",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/boundaries",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/cached",
+      "kind": "partial",
+      "revalidate": "1m",
+      "expire": "1h"
+    },
+    {
+      "path": "/tr/lab/cached",
+      "kind": "partial",
+      "revalidate": "1m",
+      "expire": "1h"
+    },
+    {
+      "path": "/en/lab/parallel",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/parallel",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/sequential",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/sequential",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/store",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/store",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/lab/store/shoes",
+      "kind": "partial",
+      "revalidate": "1h",
+      "expire": "1d"
+    },
+    {
+      "path": "[+6 more paths]",
+      "kind": "partial",
+      "revalidate": null,
+      "expire": null,
+      "aggregate": 6
+    },
+    {
+      "path": "/en/lab/streaming",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/lab/streaming",
+      "kind": "partial",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/migration",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/migration",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/prefetch",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/prefetch",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/suspense",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/suspense",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/en/waterfall",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    },
+    {
+      "path": "/tr/waterfall",
+      "kind": "static",
+      "revalidate": "30d",
+      "expire": "1y"
+    }
+  ]
+}
