@@ -8,7 +8,7 @@ import { chapters } from "@/lib/chapters";
 import { cn } from "@/lib/utils";
 import { localeNames, locales, swapLocale, type Locale } from "@/lib/locales";
 
-const REPO_URL = "https://github.com/hsnlbnan/instant-lab";
+const REPO_URL = "https://github.com/hsnlbnan/nextjs-16-3-analysis";
 
 export function SiteHeader({
   dict,
