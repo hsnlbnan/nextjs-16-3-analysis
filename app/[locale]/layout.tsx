@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { locale } from "next/root-params";
+import { Analytics } from "@vercel/analytics/next";
 
 import "../globals.css";
 
@@ -53,6 +54,7 @@ export default async function RootLayout({
     >
       <body className="bg-background text-foreground min-h-dvh font-sans antialiased">
         <TooltipProvider delayDuration={200}>{children}</TooltipProvider>
+        <Analytics />
       </body>
     </html>
   );
